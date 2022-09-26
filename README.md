@@ -19,4 +19,4 @@ $ ./icon-extractor.py /Volumes/Windows ~/Desktop/icons
 
 Result:
 
-<img src="example.png" alt="example" width="1024" height="682" />
+<img src="example.png" alt="example" width="1024" />
