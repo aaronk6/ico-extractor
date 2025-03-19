@@ -5,7 +5,7 @@ import glob
 import re
 from subprocess import call
 
-IGNORE = r'(\$[^\/]*\$|\{[^\/]*\}|dllcache\/|.tmp\/)'
+IGNORE = r'(\$[^\/]*\$|\{[^\/]*\}|dllcache\/|.tmp\/|SoftwareDistribution\/)'
 
 def get_files(win_dir):
     os.chdir(win_dir)
